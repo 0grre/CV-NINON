@@ -3,7 +3,7 @@ $(window).scroll(function (event) {
     var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
 
 //si cette valeur > à 200 on ajouter la class
-    if (y >= 400) {
+    if (y >= 590) {
         $('.nav').addClass('fixed');
     } else {
         // sinon, on l'enlève
