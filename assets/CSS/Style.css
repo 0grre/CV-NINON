@@ -6,6 +6,8 @@ html{
 }
 body{
 
+    background-image:url("../images/fond.jpg");
+
 }
 header{
     text-align:center;
@@ -13,6 +15,61 @@ header{
     background:#faf2f3;
     margin: 0 auto;
     width: 400px;
+}
+section{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    background-color: steelblue;
+    margin: auto;
+    width: 90%;
+
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    border-color: black;
+}
+.cat{
+
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+}
+.corps{
+
+    margin: 25px auto 25px auto;
+    width: 50%;
+    padding: 10px;
+    background:#faf2f3;
+
+}
+.titredate{
+
+    display: flex;
+
+}
+.titreExp {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.dateExp{
+    margin-left: 15px;
+    padding-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+.entExp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
 }
 .bandeau div p a{
     color: #fff;
@@ -64,48 +121,40 @@ header{
     display: none;
 }
 .nav{
-    padding: 0; margin: 0;
+    padding: 5px; margin: 0;
+    margin-bottom: 50px;
     text-align: center;
     background:#f3f2f1;
-    width: 70%;
-}
-.nav {
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0; margin: 20px 0 0 0;
-    width: 100%;
 }
 .nav li{
     display: inline;
     list-style: none;
     font-size: 1.5em;
-
 }
 .nav li a{
     display:inline-block;
     margin: 0 30px;
-
+    color: black;
 }
 .nav.fixed{
     transition-property: margin-top,margin-right;
     transition-duration: .5s,.1s;
-    transition-delay: 0;
+    transition-delay: 1s;
     transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
     -moz-transition-property: margin-top,margin-right;
     -moz-transition-duration: .5s,.1s;
-    -moz-transition-delay: 0;
+    -moz-transition-delay: 1s;
     -moz-transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
     -o-transition-property: margin-top,margin-right;
     -o-transition-duration: .5s,.1s;
-    -o-transition-delay: 0;
+    -o-transition-delay: 1s;
     -o-transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
-    -ms-transition-property: margin-top,margin-right;
-    -ms-transition-duration: .5s,.1s;
-    -ms-transition-delay: 0;
-    -ms-transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
     -webkit-transition-property: margin-top,margin-right;
     -webkit-transition-duration: .5s,.1s;
-    -webkit-transition-delay: 0;
+    -webkit-transition-delay: 1s;
     -webkit-transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
     position: fixed;
     top:0;
