@@ -5,56 +5,52 @@ html{
     height: 100%;
 }
 body{
-
     background-image:url("../images/fond.jpg");
-
 }
-header{
+.headeur{
     text-align:center;
     line-height:200px;
-    background:#faf2f3;
     margin: 0 auto;
     width: 400px;
+}
+.alt{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
 }
 section{
     flex-direction: column;
     justify-content: center;
     align-content: center;
     display: flex;
-    background-color: steelblue;
+    background-color: white;
     margin: auto;
-    width: 90%;
-
-
+    width: 98%;
 }
-
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     border-color: black;
 }
 .cat{
-
     padding: 10px 20px 10px 20px;
     background-color: white;
     margin: 25px;
     display: flex;
     justify-content: center;
-    border-color: black;
+    box-shadow: 60px -16px teal;
     border-style: solid;
 }
 .corps{
-
     margin: 25px auto 25px auto;
     width: 50%;
     padding: 10px;
     background:#faf2f3;
-
 }
 .titredate{
-
     display: flex;
-
 }
 .titreExp {
     font-family: 'Montserrat', sans-serif;
@@ -77,22 +73,23 @@ h2{
 .bandeau{
     display: flex;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     justify-content: space-evenly;
-    background: steelblue;
+    background: dimgrey;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
+    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.1);
 }
 .idiv{
     width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: steelblue;
+    background: dimgrey;
 }
 .idiv i{
-    background-color: steelblue;
+    background-color: dimgrey;
     font-size: 2em;
     padding: 10px;
     border-radius: 2px;
@@ -121,13 +118,14 @@ h2{
     display: none;
 }
 .nav{
-    padding: 5px; margin: 0;
+    padding: 5px;
     margin-bottom: 50px;
     text-align: center;
     background:#f3f2f1;
     width: 100%;
     display: flex;
     justify-content: center;
+    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.2);
 }
 .nav li{
     display: inline;
@@ -158,8 +156,8 @@ h2{
     -webkit-transition-timing-function: cubic-bezier(0.22,0.99,0.62,1);
     position: fixed;
     top:0;
-    z-index:1000;
-    width: 100%;
+    right: 0;
+    z-index:10000;
 }
 .photo{
     margin-top: 30px;
