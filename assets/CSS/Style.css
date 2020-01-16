@@ -3,123 +3,68 @@
 
 html{
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-image:url("../images/fond.jpg");
+    background-image: url("../images/bureau3.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
 }
-.headeur{
+header{
+    background-image: url("../images/bureau2.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.header-fond{
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    opacity: 0.8;
+}
+.header{
     text-align:center;
     line-height:200px;
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.photo{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 1000;
+    position: relative;
+    border-style: solid;
+    border-color: #f3f2f1;
+}
+.prenom{
+    color: #f3f2f1;
+    font-family: 'Pacifico', cursive;
+    z-index: 1000;
+    position: relative;
+    margin-top: 20px;
 }
 .alt{
-    display: flex;
-    justify-content: center;
-    font-size: large;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 20px;
-}
-section{
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    background-color: white;
-    margin: auto;
-    width: 98%;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    border-color: black;
-}
-.cat{
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-    margin: 25px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 60px -16px teal;
-    border-style: solid;
-}
-.corps{
-    margin: 25px auto 25px auto;
-    width: 50%;
-    padding: 10px;
-    background:#faf2f3;
-}
-.titredate{
-    display: flex;
-}
-.titreExp {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-.dateExp{
-    margin-left: 15px;
-    padding-top: 6px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-.entExp{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-.bandeau div p a{
-    color: #fff;
-}
-.bandeau{
-    display: flex;
-    text-align: center;
-    margin: 0 auto 20px auto;
-    justify-content: space-evenly;
-    background: dimgrey;
-    padding-top: 15px;
+    margin-top: 15px;
+    font-family: 'Montserrat',sans-serif,Arial;
     padding-bottom: 15px;
-    width: 100%;
-    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.1);
-}
-.idiv{
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: dimgrey;
-}
-.idiv i{
-    background-color: dimgrey;
-    font-size: 2em;
-    padding: 10px;
-    border-radius: 2px;
-}
-.bandeau i:hover{
     color: white;
-    cursor: pointer;
-    transform: scale(1.5);
-    transition: 0.4s;
-}
-.i-bas{
-    font-size: 2em;
-    padding: 10px;
-    background: white;
-}
-.i-haut{
-    color: white;
-    font-size: 2em;
-    padding: 10px;
-    margin-bottom: 50px;
-    background: white;
-    transform: scale(1.5);
-}
-.bandeau div p{
-    color: white;
-    display: none;
+    line-height: 1em;
+    font-weight: normal;
+    z-index: 1000;
+    position: relative;
+    font-size: 4em;
+    margin-bottom: 0;
 }
 .nav{
     padding: 5px;
-    margin-bottom: 50px;
     text-align: center;
     background:#f3f2f1;
     width: 100%;
@@ -159,8 +104,181 @@ h2{
     right: 0;
     z-index:10000;
 }
-.photo{
+.container-corps{
+    padding: 50px;
+    width: 100%;
+    background: white;
+}
+.corps{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 5;
+    background: white;
+}
+#apropos{
+    margin-bottom: 70px;
+}
+.titre{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -5px;
+    line-height: 50px;
+}
+.border{
+    background: dimgray;
+    display: block;
+    height: 10px;
     margin-top: 30px;
-    width: 60%;
+    margin-bottom: 30px;
+    width: 100px;
+}
+.apropostexte{
+    padding-bottom: 10px;
+    line-height: 25px;
+    margin: 0 0 10px;
+    text-align: justify;
+    font-size: 1.4em;
+}
+.date{
+    margin-top: 70px;
+    font-family: 'Montserrat',sans-serif,Arial;
+    padding-bottom: 5px;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-align: right;
+}
+.bandeau{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: black;
+    padding: 80px 0 80px 0;
+    width: 100%;
+    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.1);
+    opacity: 0.75;
+}
+.bandeau div p{
+    color: white;
+    display: none;
+    font-size: 1.3em;
+}
+.bandeau div p a{
+    color: white;
+    margin-top: 10px;
+}
+.idiv{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.idiv i{
+    color: lightgray;
+    background-color: transparent;
+    font-size: 3em;
+    padding: 10px;
     border-radius: 2px;
 }
+.bandeau i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.7);
+    transition: 0.4s;
+}
+.i-bas{
+    font-size: 2em;
+    padding: 30px;
+    background: white;
+}
+.i-haut{
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: white;
+    transform: scale(1.5);
+}
+
+
+.cat{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    margin: 25px;
+
+}
+.exp{
+    margin: 25px auto 25px auto;
+    width: 50%;
+    padding: 10px;
+    background:#faf2f3;
+}
+.titredate{
+
+}
+.titreExp {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.dateExp{
+    margin-left: 15px;
+    padding-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+.entExp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+.bandeau2{
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+.bandeau2 div p{
+    color: white;
+    display: none;
+    font-size: 1.3em;
+}
+.bandeau2 div p a{
+    color: white;
+    margin-top: 10px;
+}
+.idiv{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.idiv i{
+    color: lightgray;
+    background-color: transparent;
+    font-size: 3em;
+    padding: 10px;
+    border-radius: 2px;
+}
+.bandeau2 i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.7);
+    transition: 0.4s;
+}
+.i-bas{
+    font-size: 2em;
+    padding: 30px;
+    background: white;
+}
+.i-haut{
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: white;
+    transform: scale(1.5);
+}
+
