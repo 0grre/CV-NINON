@@ -4,57 +4,62 @@
     <meta charset="UTF-8">
     <meta name="description" content="Ninon Poulain-Fournier"/>
     <title>Ninon Poulain-Fournier</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i|Roboto:400,400i&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d4acc78081.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<section class="main">
-    <div class="headeur">
-        <img class="photo" src="./assets/images/bg.jpeg">
-        <div class="nomprenom">
-            <h1 class="prenom">Ninon</h1>
-            <h1 class="nom">Poulain-Fournier</h1>
-        </div>
-        <div class="info">
-            <h2 classe="date">13 janvier 1997</h2>
-            <h2 classe="age">23 ans</h2>
-        </div>
-
+<header>
+    <div class="header-fond"></div>
+    <div class="header">
+        <img id="photo" class="photo" src="./assets/images/bg.jpeg">
+        <h1 class="prenom">Ninon Poulain-Fournier</h1>
+        <h1 class="alt">Contrat en alternance</h1>
     </div>
-    <div class="bandeau">
-        <div class="idiv"><i class="i-bas fas fa-car"></i>
-            <p>Permis B véhiculée</p></div>
-        <div class="idiv"><i class="i-bas fas fa-envelope"> </i>
-            <p><a href="mailto:ninon.poulain@gmail.com">ninon.poulain@gmail.com</a></p></div>
-        <div class="idiv"><i class="i-bas fas fa-mobile-alt"></i>
-            <p><a href="tel:+33625574933">06.25.57.49.33</a></p></div>
-        <div class="idiv"><i class="i-bas fab fa-linkedin"></i>
-            <p><a href="https://www.linkedin.com/in/ninon-poulain-fournier-a8b235162/" target="_blank">Mon Linkedin</a></p></div>
-        <div class="idiv"><i class="i-bas fas fa-map-marker-alt"></i>
-            <p><a href="https://goo.gl/maps/AgtWzCKy5yY8pmoF7" target="_blank">38 rue du Canteleu 59500 DOUAI</a></p></div>
-    </div>
-    <div class="alt"><h1>Contrat en alternance</h1></div>
-    <ul class="nav">
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#experiences">Expériences</a></li>
-        <li><a href="#">Formations</a></li>
-        <li><a href="#">Logiciels</a></li>
-        <li><a href="#">Divers</a></li>
-    </ul>
-    <section class="corpssec">
-        <h2 id="apropos" class="cat">À propos</h2>
-        <div class="corps">Forte d’une expérience de deux ans au sein d’un cabinet
+</header>
+<ul class="nav">
+    <li><a href="#apropos">À propos</a></li>
+    <li><a href="#experiences">Expériences</a></li>
+    <li><a href="#">Formations</a></li>
+    <li><a href="#">Logiciels</a></li>
+    <li><a href="#">Divers</a></li>
+</ul>
+<div class="container-corps">
+    <div id="apropos"></div>
+    <div class="corps">
+        <h2 class="titre">À propos</h2>
+        <span class="border"></span>
+        <div class="apropostexte">Forte d’une expérience de deux ans au sein d’un cabinet
             d’expertise-comptable, je suis à la recherche d’une entreprise afin
             d’effectuer mon année en licence professionnelle Ressources
             Humaines pour l’année 2020/2021.
             En effet, je souhaiterai étoffer mes connaissances en explorant
             davantage de missions liées à ce domaine.
             Je suis une personne responsable, autonome et déterminée.</div>
-        <h2 id="experiences" class="cat">Expériences</h2>
-        <div class="corps">
+        <h2 class="date">23 ans / 13 janvier 1997</h2>
+    </div>
+</div>
+<div class="bandeau">
+    <div class="idiv"><i class="i-bas fas fa-car"></i>
+        <p>Permis B véhiculée</p></div>
+    <div class="idiv"><i class="i-bas fas fa-envelope"> </i>
+        <p><a href="mailto:ninon.poulain@gmail.com">ninon.poulain@gmail.com</a></p></div>
+    <div class="idiv"><i class="i-bas fas fa-mobile-alt"></i>
+        <p><a href="tel:+33625574933">06.25.57.49.33</a></p></div>
+    <div class="idiv"><i class="i-bas fab fa-linkedin"></i>
+        <p><a href="https://www.linkedin.com/in/ninon-poulain-fournier-a8b235162/" target="_blank">Mon Linkedin</a></p></div>
+    <div class="idiv"><i class="i-bas fas fa-map-marker-alt"></i>
+        <p><a href="https://goo.gl/maps/AgtWzCKy5yY8pmoF7" target="_blank">38 rue du Canteleu 59500 DOUAI</a></p></div>
+</div>
+
+<div class="container-corps">
+    <div class="corps">
+        <div id="experiences"></div>
+        <h2 class="titre">Expériences</h2>
+        <span class="border"></span>
+        <div class="exp">
             <div class="titredate"><h2 class="titreExp">Assistante au pôle social</h2>
                 <div class="dateExp">Septembre 2018 à ce jour</div></div>
             <h2 class="entExp">Groupe Altus à Arras</h2>
@@ -72,10 +77,25 @@
             <h2 class="entExp">Pimkie à Vendin le Vieil</h2>
             <div class="corpsExp">Contact clientèle, gestion de la caisse (ouverture et fermeture), merchandising, gestion des cabines et des réserves, rangement magasin.</div>
         </div>
+    </div>
+</div>
+<div class="bandeau2">
+    <div class="idiv"><i class="i-bas fas fa-car"></i>
+        <p>Permis B véhiculée</p></div>
+    <div class="idiv"><i class="i-bas fas fa-envelope"> </i>
+        <p><a href="mailto:ninon.poulain@gmail.com">ninon.poulain@gmail.com</a></p></div>
+    <div class="idiv"><i class="i-bas fas fa-mobile-alt"></i>
+        <p><a href="tel:+33625574933">06.25.57.49.33</a></p></div>
+    <div class="idiv"><i class="i-bas fab fa-linkedin"></i>
+        <p><a href="https://www.linkedin.com/in/ninon-poulain-fournier-a8b235162/" target="_blank">Mon Linkedin</a></p></div>
+    <div class="idiv"><i class="i-bas fas fa-map-marker-alt"></i>
+        <p><a href="https://goo.gl/maps/AgtWzCKy5yY8pmoF7" target="_blank">38 rue du Canteleu 59500 DOUAI</a></p></div>
+</div>
 
 
-    </section>
-</section>
+
+
+
 
 
 
