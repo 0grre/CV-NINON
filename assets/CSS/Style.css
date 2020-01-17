@@ -8,12 +8,16 @@ html{
 body{
     background-image: url("../images/bureau3.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
     position: relative;
     z-index: 1;
 }
 header{
     background-image: url("../images/bureau2.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
     position: relative;
     z-index: 1;
 }
@@ -38,7 +42,7 @@ header{
     width: 260px;
     height: 260px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 50px auto;
     z-index: 1000;
     position: relative;
     border-style: solid;
@@ -51,12 +55,22 @@ header{
     position: relative;
     margin-top: 20px;
 }
+.date {
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif, Arial;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: normal;
+    z-index: 1000;
+    position: relative;
+    font-size: 1.1em;
+
+}
 .alt{
-    margin-top: 15px;
+    margin-top: 13px;
     font-family: 'Montserrat',sans-serif,Arial;
     padding-bottom: 15px;
     color: white;
-    line-height: 1em;
     font-weight: normal;
     z-index: 1000;
     position: relative;
@@ -118,7 +132,7 @@ header{
     z-index: 5;
     background: white;
 }
-#apropos{
+.hautdepage{
     margin-bottom: 70px;
 }
 .titre{
@@ -143,14 +157,7 @@ header{
     text-align: justify;
     font-size: 1.4em;
 }
-.date{
-    margin-top: 70px;
-    font-family: 'Montserrat',sans-serif,Arial;
-    padding-bottom: 5px;
-    font-size: 1.8em;
-    font-weight: normal;
-    text-align: right;
-}
+
 .bandeau{
     display: flex;
     text-align: center;
@@ -240,27 +247,40 @@ header{
     flex-direction: column;
     background: black;
 }
+.bandeau2 div{
+    flex-direction: initial;
+    text-align: initial;
+}
 .bandeau2 div p{
     color: white;
-    display: none;
+    display: block;
     font-size: 1.3em;
 }
 .bandeau2 div p a{
     color: white;
     margin-top: 10px;
 }
-.idiv{
-    width: 150px;
+.idiv2{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+
+
+
 }
-.idiv i{
-    color: lightgray;
+.expeblock{
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+.idiv2 i{
+    color: black;
     background-color: transparent;
-    font-size: 3em;
-    padding: 10px;
+    font-size: 1em;
+    padding-top: 20px;
     border-radius: 2px;
+}
+.idiv2 p{
+    text-align: center;
 }
 .bandeau2 i:hover{
     color: white;
@@ -268,12 +288,12 @@ header{
     transform: scale(1.7);
     transition: 0.4s;
 }
-.i-bas{
+.i-bas2{
     font-size: 2em;
     padding: 30px;
     background: white;
 }
-.i-haut{
+.i-haut2{
     color: white;
     font-size: 2em;
     padding: 10px;
