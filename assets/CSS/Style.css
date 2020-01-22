@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 50px;
+    background-color: black;
     position: relative;
     z-index: 1;
 }
@@ -245,60 +246,40 @@ header{
 .bandeau2{
     display: flex;
     flex-direction: column;
-    background: black;
-}
-.bandeau2 div{
-    flex-direction: initial;
-    text-align: initial;
-}
-.bandeau2 div p{
-    color: white;
-    display: block;
-    font-size: 1.3em;
-}
-.bandeau2 div p a{
-    color: white;
-    margin-top: 10px;
-}
-.idiv2{
-    width: 100%;
-    display: flex;
-
-
-
+    justify-content: space-between;
 }
 .expeblock{
-    flex-direction: column;
-    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+
 
 }
-.idiv2 i{
+.expeblock i{
+    display: flex;
     color: black;
     background-color: transparent;
-    font-size: 1em;
-    padding-top: 20px;
-    border-radius: 2px;
+    font-size: 1.4em;
+}
+.expeblock p{
+    display: block;
+    align-items: center;
+    font-size: 0.7em;
+    margin: auto 100px auto auto;
+
+}
+.idiv2{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
 }
 .idiv2 p{
-    text-align: center;
-}
-.bandeau2 i:hover{
-    color: white;
-    cursor: pointer;
-    transform: scale(1.7);
-    transition: 0.4s;
-}
-.i-bas2{
-    font-size: 2em;
-    padding: 30px;
-    background: white;
-}
-.i-haut2{
-    color: white;
-    font-size: 2em;
-    padding: 10px;
-    margin-bottom: 50px;
-    background: white;
-    transform: scale(1.5);
+    font-size: 0.8em;
+    display:flex;
+    text-align: justify;
+
 }
 
