@@ -3,13 +3,14 @@
 
 html{
     height: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans',sans-serif,Arial;
+    width: 100%;
 }
 body{
     background-image: url("../images/bureau3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 50px;
+    background-position-y: 300px;
     background-color: black;
     position: relative;
     z-index: 1;
@@ -64,8 +65,7 @@ header{
     font-weight: normal;
     z-index: 1000;
     position: relative;
-    font-size: 1.1em;
-
+    font-size: 1.2em;
 }
 .alt{
     margin-top: 13px;
@@ -125,7 +125,7 @@ header{
     background: white;
 }
 .corps{
-    width: 1170px;
+    width: 60%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -148,17 +148,16 @@ header{
     display: block;
     height: 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     width: 100px;
 }
 .apropostexte{
-    padding-bottom: 10px;
+    height: 50%;
+    padding-bottom: 70px;
     line-height: 25px;
-    margin: 0 0 10px;
     text-align: justify;
     font-size: 1.4em;
 }
-
 .bandeau{
     display: flex;
     text-align: center;
@@ -210,76 +209,170 @@ header{
     background: white;
     transform: scale(1.5);
 }
-
-
-.cat{
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-    margin: 25px;
-
-}
-.exp{
-    margin: 25px auto 25px auto;
-    width: 50%;
-    padding: 10px;
-    background:#faf2f3;
-}
-.titredate{
-
-}
-.titreExp {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-.dateExp{
-    margin-left: 15px;
-    padding-top: 6px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-.entExp{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-
-.bandeau2{
+.timeline-items{
+    padding: 0 40px 0 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
 }
-.expeblock{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
+.timeline-items h2{
+    margin-right: 40px;
+    font-style: normal;
+}
+.year{
+    font-style: italic;
+    font-size: 1.2em;
+    width: 40%;
+    height: 40px;
+}
+b{
+    text-transform: uppercase;
 
+}
+.info{
+    height: 20%;
+    font-size: 1.2em;
+    hyphens: auto;
+    width: 60%;
+    padding: 0 0 60px 70px;
+    border-left: 2px dotted black;
+    line-height: 150%;
+    opacity: 90%;
 
 }
-.expeblock i{
-    display: flex;
-    color: black;
-    background-color: transparent;
-    font-size: 1.4em;
-}
-.expeblock p{
+.point{
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
     display: block;
-    align-items: center;
-    font-size: 0.7em;
-    margin: auto 100px auto auto;
+    float: right;
+    margin-right: -11px;
+    background-color: black;
+
+    z-index: 2000;
+    position: relative;
+}
+#invi{
+    opacity: 0;
+}
+#nopadding{
+    padding-bottom: 0;
+}
+#quadra{
+    color: red;
+}
+#net{
+    color: gold;
+}
+#off{
+    color: orangered;
+    opacity: 100;
+}
+#offi{
+    color: orangered;
+    opacity: 100;
+}
+#sila{
+    color: orange;
+    opacity: 100;
+}
+#silae{
+    color: orange;
+    opacity: 100;
+}
+#fondlog{
+    position: relative;
+    z-index: 2;
+    padding: 0;
+
+    opacity: 0.75;
+    background-color: black;
+    width: 100%;
+    left: 0%;
+    height: 100%;
 
 }
-.idiv2{
-    margin-left: 40px;
+.part2{
+    background-image: url("../images/bureau5.jpg");
+
+
+    background-size: contain;
+    box-sizing: content-box;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+.iconlog{
+    width: 70px;
+    height: 70px;
+    font-size: 4em;
+    opacity: 100;
+    z-index: 1000;
+    position: relative;
+}
+.logiciel{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: black;
+    padding: 80px 0 80px 0;
+    width: 100%;
+    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.1);
+
+    z-index: 3;
+}
+.log{
+    width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-
+    align-items: center;
 }
-.idiv2 p{
-    font-size: 0.8em;
-    display:flex;
-    text-align: justify;
 
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        margin: auto auto 60px auto;
+    }
+    h2{
+        text-align: center;
+    }
+    section{
+        margin: auto;
+    }
+    .textregister{
+        width: 40%;
+    }
+    .conditions{
+        width: 40%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
