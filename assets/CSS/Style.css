@@ -11,7 +11,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 300px;
-    background-color: black;
     position: relative;
     z-index: 1;
 }
@@ -86,6 +85,7 @@ header{
     display: flex;
     justify-content: center;
     box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.2);
+    opacity: 90%;
 }
 .nav li{
     display: inline;
@@ -144,7 +144,7 @@ header{
     line-height: 50px;
 }
 .border{
-    background: dimgray;
+    background: indianred;
     display: block;
     height: 10px;
     margin-top: 30px;
@@ -214,6 +214,7 @@ header{
     display: flex;
     width: 100%;
     align-items: flex-start;
+    height: 25%;
 }
 .timeline-items h2{
     margin-right: 40px;
@@ -223,11 +224,9 @@ header{
     font-style: italic;
     font-size: 1.2em;
     width: 40%;
-    height: 40px;
 }
 b{
     text-transform: uppercase;
-
 }
 .info{
     height: 20%;
@@ -238,7 +237,6 @@ b{
     border-left: 2px dotted black;
     line-height: 150%;
     opacity: 90%;
-
 }
 .point{
     border: 2px solid white;
@@ -249,9 +247,6 @@ b{
     float: right;
     margin-right: -11px;
     background-color: black;
-
-    z-index: 2000;
-    position: relative;
 }
 #invi{
     opacity: 0;
@@ -259,58 +254,41 @@ b{
 #nopadding{
     padding-bottom: 0;
 }
-#quadra{
+.quadra{
     color: red;
 }
-#net{
+.net{
     color: gold;
 }
-#off{
+.off{
     color: orangered;
-    opacity: 100;
 }
-#offi{
-    color: orangered;
-    opacity: 100;
-}
-#sila{
+.sila{
     color: orange;
-    opacity: 100;
-}
-#silae{
-    color: orange;
-    opacity: 100;
 }
 #fondlog{
-    position: relative;
-    z-index: 2;
     padding: 0;
-
-    opacity: 0.75;
+    opacity: 0.85;
     background-color: black;
     width: 100%;
-    left: 0%;
     height: 100%;
-
 }
 .part2{
     background-image: url("../images/bureau5.jpg");
-
-
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -500px;
+    background-size: cover;
     box-sizing: content-box;
     width: 100%;
-    position: relative;
-    z-index: 1;
-
 }
 .iconlog{
     width: 70px;
     height: 70px;
     font-size: 4em;
-    opacity: 100;
-    z-index: 1000;
-    position: relative;
+    margin-bottom: 20px;
+}
+.iconlog p{
+    font-family: 'Pacifico', cursive;
 }
 .logiciel{
     display: flex;
@@ -319,9 +297,6 @@ b{
     background: black;
     padding: 80px 0 80px 0;
     width: 100%;
-    box-shadow: 0 5px 5px 5px RGBA(0,0,0,0.1);
-
-    z-index: 3;
 }
 .log{
     width: 25%;
@@ -329,7 +304,61 @@ b{
     flex-direction: column;
     align-items: center;
 }
+.Fo{
+    border-bottom: 1px solid dimgray;
+    border-left: 1px solid dimgray;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.fo{
+    border-left: 0;
+}
+.foicon{
+    font-size: 2em;
+    margin-left: 20px;
+}
+footer{
+    background-image: url("../images/montagne.jpg");
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
 
+}
+#d{
+    padding: 0;
+    opacity: 0.85;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.divers{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: black;
+    padding: 80px 0 80px 0;
+    width: 100%;
+}
+.divers i{
+    width: 70px;
+    height: 70px;
+    font-size: 4em;
+    color: steelblue;
+}
+.basdepage{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 1em;
+
+}
+.basdepage a{
+    text-transform: uppercase;
+    color: black;
+}
 
 
 
