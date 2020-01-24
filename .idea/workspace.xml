@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c97ff5-16ee-484a-9c2a-ee8bc585fe50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/bureau4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bureau5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo-net-entreprise.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/silaeexpert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avion1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/montagne.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CSS/Style.css" afterDir="false" />
@@ -105,6 +103,8 @@
       <workItem from="1579595046069" duration="4198000" />
       <workItem from="1579680421812" duration="12756000" />
       <workItem from="1579766417374" duration="15892000" />
+      <workItem from="1579853525858" duration="1085000" />
+      <workItem from="1579854780761" duration="9125000" />
     </task>
     <servers />
   </component>
@@ -139,9 +139,13 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="0" y="0" width="935" height="1048" key="find.popup/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1579596053584" />
-    <state x="532" y="239" key="run.anything.popup" timestamp="1579183053307">
+    <state x="532" y="239" key="run.anything.popup" timestamp="1579865524777">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="532" y="239" key="run.anything.popup/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1579183053307" />
+    <state x="532" y="239" key="run.anything.popup/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1579865524777" />
+    <state x="539" y="13" width="840" height="1034" key="search.everywhere.popup" timestamp="1579862417698">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="539" y="13" width="840" height="1034" key="search.everywhere.popup/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1579862417698" />
   </component>
 </project>
