@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2c97ff5-16ee-484a-9c2a-ee8bc585fe50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/avion1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/montagne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/._iconarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/iconarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/._CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/._CV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CSS/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Quadra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Silae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/avion1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bureau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bureau2 - Copie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bureau4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-net-entreprise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/montagne.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +69,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PROJET CESI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,6 +119,14 @@
       <workItem from="1579766417374" duration="15892000" />
       <workItem from="1579853525858" duration="1085000" />
       <workItem from="1579854780761" duration="9125000" />
+      <workItem from="1579961863154" duration="14000" />
+      <workItem from="1580112228465" duration="20730000" />
+      <workItem from="1580198380297" duration="20704000" />
+      <workItem from="1580241621066" duration="326000" />
+      <workItem from="1580284289075" duration="4726000" />
+      <workItem from="1580458122134" duration="5248000" />
+      <workItem from="1580715819495" duration="640000" />
+      <workItem from="1580716482350" duration="11256000" />
     </task>
     <servers />
   </component>
@@ -115,26 +137,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="452" y="97" key="#Inspections" timestamp="1580201330795">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="452" y="97" key="#Inspections/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1580201330795" />
     <state x="196" y="356" key="#Web_Browsers" timestamp="1579284855611">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state x="196" y="356" key="#Web_Browsers/0.23.2560.1338@0.23.2560.1338" timestamp="1579284855611" />
-    <state x="640" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578646632743">
+    <state x="640" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580716463122">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="640" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1578646632743" />
-    <state x="689" y="219" key="FileChooserDialogImpl" timestamp="1578923771236">
+    <state x="640" y="231" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1580716463122" />
+    <state x="689" y="219" key="FileChooserDialogImpl" timestamp="1580717377412">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
+    <state x="689" y="219" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1580717377412" />
     <state x="689" y="219" key="FileChooserDialogImpl/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1578923771236" />
     <state x="352" y="77" key="SettingsEditor" timestamp="1578923773325">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="352" y="77" key="SettingsEditor/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1578923773325" />
-    <state x="957" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1578861399562">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="957" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1580284298199">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="957" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1580284298199" />
     <state x="957" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1578861399562" />
+    <state x="957" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1342@0.23.2560.1342" timestamp="1580241718697" />
     <state x="0" y="0" width="935" height="1048" key="find.popup" timestamp="1579596053584">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
